@@ -44,7 +44,7 @@ h2 {
 }
 
 .cards-column {
-	float: left;
+	display: flex;
   	width: 25rem;
   	padding: 0 30px;
   	
@@ -56,6 +56,8 @@ h2 {
 	border-radius: 5px 5px 5px 5px;
 	background-color: #f1f1f1;
   	padding: 16px;
+	width: 250px;
+	height: 400px;
 }
 
 .activities-list {
