@@ -1,14 +1,18 @@
 
 .hero-banner {
 	background-color: #FEFAF5;
-	display: inline-block;
+
 	width: 100%;
-	align-items: center;
 }
 
+.hero-banner > div {
+	display: table-cell;
+}
 .intro-container, .logo {
 	width: 50%;
-	float: left;
+}
+.intro-container {
+	vertical-align: middle;
 }
 
 .intro {
