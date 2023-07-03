@@ -37,8 +37,15 @@
 .nav-list__item {
 	padding: 1rem;
 	border-bottom: 5px;	
-	border-color: orange;
+	border-color: #DB7A4E;
 	margin-right: 3rem;
+}
+
+.nav-list__item:hover {
+	background-color: #fc8b45ae;
+	color: #FFFFFF;
+	border-bottom: 5px;	
+	border-color: #fc8b45ae;
 }
 
 .nav-item {
